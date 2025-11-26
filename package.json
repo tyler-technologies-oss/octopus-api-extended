@@ -1,17 +1,12 @@
 {
-  "name": "octopus-deploy-api-wrapper",
-  "module": "index.ts",
+  "name": "octopus-api-extended",
+  "module": "api/main.ts",
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "main": "index.ts",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lillious/Octopus-Deploy-API-Wrapper.git"
-  },
-  "homepage": "https://github.com/Lillious/Octopus-Deploy-API-Wrapper#readme"
+  "main": "api/main.js",
+  "type": "module"
 }
