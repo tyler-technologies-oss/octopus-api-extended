@@ -7,7 +7,7 @@ A TypeScript wrapper for the Octopus Deploy REST API, providing a simple and int
 To use the wrapper, you need to provide your Octopus Deploy API key and server URL:
 
 ```typescript
-import OctopusAPI from 'octopus-deploy-api-wrapper';
+import OctopusAPI from "./Octopus-Deploy-API-Wrapper/api/main";
 
 const octopus = new OctopusAPI({
     apiKey: process.env.OCTOPUS_API_KEY as string,
@@ -20,7 +20,7 @@ const octopus = new OctopusAPI({
 ### Quick Example
 
 ```typescript
-import OctopusAPI from 'octopus-deploy-api-wrapper';
+import OctopusAPI from "./Octopus-Deploy-API-Wrapper/api/main";
 
 const octopus = new OctopusAPI({
     apiKey: process.env.OCTOPUS_API_KEY as string,
@@ -45,7 +45,7 @@ const deployment = await octopus.deployments.Create({
 Here's a more complete example showing how to find projects in a group and deploy a previous release:
 
 ```typescript
-import OctopusAPI from 'octopus-deploy-api-wrapper';
+import OctopusAPI from "./Octopus-Deploy-API-Wrapper/api/main";
 
 const octopus = new OctopusAPI({
     apiKey: process.env.OCTOPUS_API_KEY as string,
